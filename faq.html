@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vernut</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/logo.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- seo -->
+    <meta name="title" content="Venurt - Fast Mobile Recharge & Secure Bill Payments Anytime, Anywhere" />
+    <meta name="description"
+        content="Recharge airtime, buy data, pay electricity, internet, water, and TV bills instantly with Venurt. Trusted by 325M+ users for secure payments, cashback rewards, and 24/7 services." />
+
+</head>
+
+<body class="overflow-x-hidden bg-blue-50">
+    <div id="global-loader"
+        class="hi dden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="text-center">
+            <div class="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-[#145bcd] mx-auto"></div>
+            <h2 class="text-zinc-900  mt-4">Loading...</h2>
+        </div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+
+
+    <section class="relative bgBanner overflow-x-hidden">
+        <div id="navbar"></div>
+
+        <section class="relative overflow-hidden md:py-14 py-8 bg-center bg-cover py-10">
+            <!-- Content -->
+            <div
+                class="relative z-20 mx-auto max-w-7xl px-5 sm:px-6 lg:px-12 md:py-14 py-8 flex md:flex-row md:gap-20 gap-5 items-center justify-center flex-col text-center">
+                <div class="md:max-w-2xl w-full">
+                    <h1 data-aos="fade-up" data-aos-delay="200"
+                        class="max-w-5xl textShadow mx-auto font-semibold text-3xl md:text-6xl tracking-wide text-zinc-100 leading-tight md:mb-6 capitalize mb-5">
+                        Frequently Asked Questions
+                    </h1>
+
+                    <p data-aos="fade-up" data-aos-delay="400" class="text-zinc-300 text-lg space-y-3">
+                        Have questions? We have answers! Here are some of the most common questions about our app.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+    </section>
+
+
+    <section id="faq" class="md:mt-10 mt-12">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col justify-center items-center">
+                <div class="w-full">
+                    <div class="">
+                        <div class="md:mt-8 mt-5">
+                            <!-- FAQ 1 -->
+                            <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6"
+                                data-aos="fade-up">
+                                <button onclick="toggleAccordion(1)"
+                                    class="w-full cursor-pointer flex justify-between items-center"
+                                    aria-controls="content-1" aria-expanded="false">
+                                    <p class="text-lg text-start font-medium">What is Venurt?</p>
+                                    <i id="icon-1"
+                                        class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                                </button>
+                                <div id="content-1"
+                                    class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+                                    role="region">
+                                    <p class="pt-3 text-zinc-600">
+                                        Venurt is an online platform (founded in 2020) for fast, secure <b>mobile
+                                            recharge</b> and <b>bill payments</b>.
+                                        Top up <b>MTN</b>, <b>Airtel</b>, <b>Glo</b>, and <b>9mobile</b>, and pay
+                                        <b>electricity</b>, <b>internet</b>, and <b>TV</b> subscriptions in
+                                        seconds—anytime, anywhere.
+                                        We focus on reliability, transparent pricing, and a smooth checkout so you never
+                                        miss a due date.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 2 -->
+                            <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5"
+                                data-aos="fade-up">
+                                <button onclick="toggleAccordion(2)"
+                                    class="w-full cursor-pointer flex justify-between items-center"
+                                    aria-controls="content-2" aria-expanded="false">
+                                    <p class="text-lg text-start font-medium">How do I use Venurt?</p>
+                                    <i id="icon-2"
+                                        class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                                </button>
+                                <div id="content-2"
+                                    class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+                                    role="region">
+                                    <p class="pt-3 text-zinc-600">
+                                        Open Venurt, choose a service—<b>Purchase Airtime & Data</b>, <b>Bill
+                                            Payments</b>, <b>Phone Recharge & DTH</b>, or <b>Bus Tickets</b>—enter the
+                                        required details,
+                                        and pay via our trusted partners (<b>Verve</b>, <b>Paystack</b>,
+                                        <b>Flutterwave</b>, or <b>Bank Transfer</b>).
+                                        You’ll get <b>instant confirmations</b> by SMS/email; electricity tokens and
+                                        receipts are delivered immediately.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 3 -->
+                            <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5"
+                                data-aos="fade-up">
+                                <button onclick="toggleAccordion(3)"
+                                    class="w-full cursor-pointer flex justify-between items-center"
+                                    aria-controls="content-3" aria-expanded="false">
+                                    <p class="text-lg text-start font-medium">Are my payments secure?</p>
+                                    <i id="icon-3"
+                                        class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                                </button>
+                                <div id="content-3"
+                                    class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+                                    role="region">
+                                    <p class="pt-3 text-zinc-600">
+                                        Yes—Venurt works with <b>trusted payment partners</b> (Verve, Paystack,
+                                        Flutterwave, and supported bank transfers).
+                                        Transactions are processed over secure channels and you receive real-time
+                                        confirmations for every successful payment.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 4 -->
+                            <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5"
+                                data-aos="fade-up">
+                                <button onclick="toggleAccordion(4)"
+                                    class="w-full cursor-pointer flex justify-between items-center"
+                                    aria-controls="content-4" aria-expanded="false">
+                                    <p class="text-lg text-start font-medium">What services can I use on Venurt?</p>
+                                    <i id="icon-4"
+                                        class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                                </button>
+                                <div id="content-4"
+                                    class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+                                    role="region">
+                                    <p class="pt-3 text-zinc-600">
+                                        <b>Purchase Airtime & Data</b> for all major networks, <b>pay electricity,
+                                            internet, and water bills</b>,
+                                        <b>renew DStv/GOtv/Startimes</b>, and <b>book bus tickets</b>—all in one place,
+                                        24/7.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 5 -->
+                            <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5"
+                                data-aos="fade-up">
+                                <button onclick="toggleAccordion(5)"
+                                    class="w-full cursor-pointer flex justify-between items-center"
+                                    aria-controls="content-5" aria-expanded="false">
+                                    <p class="text-lg text-start font-medium">Which networks do you support?</p>
+                                    <i id="icon-5"
+                                        class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                                </button>
+                                <div id="content-5"
+                                    class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+                                    role="region">
+                                    <p class="pt-3 text-zinc-600">
+                                        We support <b>MTN</b>, <b>Airtel</b>, <b>Glo</b>, and <b>9mobile</b> for airtime
+                                        and data purchases, with instant recharge confirmations.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 6 -->
+                            <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5"
+                                data-aos="fade-up">
+                                <button onclick="toggleAccordion(6)"
+                                    class="w-full cursor-pointer flex justify-between items-center"
+                                    aria-controls="content-6" aria-expanded="false">
+                                    <p class="text-lg text-start font-medium">What payment methods are available?</p>
+                                    <i id="icon-6"
+                                        class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                                </button>
+                                <div id="content-6"
+                                    class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+                                    role="region">
+                                    <p class="pt-3 text-zinc-600">
+                                        Pay with <b>Verve</b> cards, through <b>Paystack</b> and <b>Flutterwave</b>
+                                        gateways, or via <b>Bank Transfer</b>.
+                                        Choose what’s most convenient and complete your payment in seconds.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 7 -->
+                            <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5"
+                                data-aos="fade-up">
+                                <button onclick="toggleAccordion(7)"
+                                    class="w-full cursor-pointer flex justify-between items-center"
+                                    aria-controls="content-7" aria-expanded="false">
+                                    <p class="text-lg text-start font-medium">How does cashback work?</p>
+                                    <i id="icon-7"
+                                        class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                                </button>
+                                <div id="content-7"
+                                    class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+                                    role="region">
+                                    <p class="pt-3 text-zinc-600">
+                                        Earn <b>cashback</b> on every recharge and bill payment. Your reward appears in
+                                        your account and you can <b>redeem it instantly at checkout</b>.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 8 -->
+                            <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5"
+                                data-aos="fade-up">
+                                <button onclick="toggleAccordion(8)"
+                                    class="w-full cursor-pointer flex justify-between items-center"
+                                    aria-controls="content-8" aria-expanded="false">
+                                    <p class="text-lg text-start font-medium">What is the Venurt Wallet?</p>
+                                    <i id="icon-8"
+                                        class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                                </button>
+                                <div id="content-8"
+                                    class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+                                    role="region">
+                                    <p class="pt-3 text-zinc-600">
+                                        The <b>Balance Wallet</b> lets you load funds once and pay anytime. Track
+                                        spending, view statements, and set limits easily—perfect for quick, repeat
+                                        payments.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 9 -->
+                            <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5"
+                                data-aos="fade-up">
+                                <button onclick="toggleAccordion(9)"
+                                    class="w-full cursor-pointer flex justify-between items-center"
+                                    aria-controls="content-9" aria-expanded="false">
+                                    <p class="text-lg text-start font-medium">Do I get receipts and electricity tokens?
+                                    </p>
+                                    <i id="icon-9"
+                                        class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                                </button>
+                                <div id="content-9"
+                                    class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+                                    role="region">
+                                    <p class="pt-3 text-zinc-600">
+                                        Yes. Recharges and bill payments generate <b>instant receipts</b>, and
+                                        electricity purchases deliver <b>tokens immediately</b>—sent to you via in-app
+                                        view, SMS, and/or email.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 10 -->
+                            <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5"
+                                data-aos="fade-up">
+                                <button onclick="toggleAccordion(10)"
+                                    class="w-full cursor-pointer flex justify-between items-center"
+                                    aria-controls="content-10" aria-expanded="false">
+                                    <p class="text-lg text-start font-medium">Is Venurt available 24/7?</p>
+                                    <i id="icon-10"
+                                        class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                                </button>
+                                <div id="content-10"
+                                    class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out"
+                                    role="region">
+                                    <p class="pt-3 text-zinc-600">
+                                        Yes. Venurt runs <b>24/7</b> so you can recharge and pay bills anytime. Enjoy a
+                                        smooth experience backed by our reliable checkout and instant confirmations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="md:mt-20 mt-10" id="footer"></div>
+
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script>
+        function toggleAccordion(index) {
+            const contents = document.querySelectorAll('[id^="content-"]');
+            const icons = document.querySelectorAll('[id^="icon-"]');
+
+            contents.forEach((content, i) => {
+                const num = i + 1; // because your ids are content-1, content-2, etc.
+                const icon = document.getElementById(`icon-${num}`);
+
+                if (num === index) {
+                    // toggle the clicked one
+                    if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+                        content.style.maxHeight = '0';
+                        icon.classList.remove('rotate-180');
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                        icon.classList.add('rotate-180');
+                    }
+                } else {
+                    // close all others
+                    content.style.maxHeight = '0';
+                    icon.classList.remove('rotate-180');
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>

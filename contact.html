@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vernut</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/logo.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- seo -->
+    <meta name="title" content="Venurt - Fast Mobile Recharge & Secure Bill Payments Anytime, Anywhere" />
+    <meta name="description"
+        content="Recharge airtime, buy data, pay electricity, internet, water, and TV bills instantly with Venurt. Trusted by 325M+ users for secure payments, cashback rewards, and 24/7 services." />
+
+</head>
+
+<body class="overflow-x-hidden bg-blue-50">
+    <div id="global-loader"
+        class="hi dden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="text-center">
+            <div class="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-[#145bcd] mx-auto"></div>
+            <h2 class="text-zinc-900  mt-4">Loading...</h2>
+        </div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+
+
+    <section class="relative bgBanner overflow-x-hidden">
+        <div id="navbar"></div>
+
+        <section class="relative overflow-hidden md:py-14 py-8 bg-center bg-cover py-10">
+            <!-- Content -->
+            <div
+                class="relative z-20 mx-auto max-w-7xl px-5 sm:px-6 lg:px-12 md:py-14 py-8 flex md:flex-row md:gap-20 gap-5 items-center justify-center flex-col text-center">
+                <div class="md:max-w-2xl w-full">
+                    <h1 data-aos="fade-up" data-aos-delay="200"
+                        class="max-w-5xl textShadow mx-auto font-semibold text-3xl md:text-6xl tracking-wide text-zinc-100 leading-tight md:mb-6 capitalize mb-5">
+                        Contact Us
+                    </h1>
+
+                    <p data-aos="fade-up" data-aos-delay="400" class="text-zinc-300 text-lg space-y-3">
+                        We’re here to help! Reach out to us with any questions or concerns.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+    </section>
+
+
+    <div class="pointer-events-none fixed inset-0 -z-10">
+        <div class="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-[#145bcd]/10 blur-3xl"></div>
+        <div class="absolute -bottom-24 -right-24 h-72 w-72 rounded-full bg-blue-300/10 blur-3xl"></div>
+    </div>
+
+    <section class="md:max-w-7xl w-full mx-auto lg:px-12 px-4 md:mt-16 mt-8">
+        <!-- Grid -->
+        <div class="mt-12 grid grid-cols-1 lg:grid-cols-12 gap-5">
+            <!-- Left: Contact Cards -->
+            <div class="lg:col-span-5 space-y-5">
+                <div class="p-6 md:py-8 rounded-2xl border border-zinc-200 bg-white shadow-sm hover:shadow-md transition"
+                    data-aos="fade-right">
+                    <div class="flex items-start gap-4">
+                        <div class="h-11 w-11 shrink-0 rounded-xl bg-[#145bcd]/10 flex items-center justify-center">
+                            <i class="fa-solid fa-location-dot text-[#145bcd]"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg  font-semibold">Location</h3>
+                            <p class="text-zinc-600 mt-1">119 W 24th Street, 4th Floor, New York, USA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 md:py-8 rounded-2xl border border-zinc-200 bg-white shadow-sm hover:shadow-md transition"
+                    data-aos="fade-right" data-aos-delay="100">
+                    <div class="flex items-start gap-4">
+                        <div class="h-11 w-11 shrink-0 rounded-xl bg-[#145bcd]/10 flex items-center justify-center">
+                            <i class="fa-solid fa-envelope text-[#145bcd]"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">Email</h3>
+                            <p class="text-zinc-600 mt-1"><a href="mailto:company@support.email"
+                                    class="underline decoration-dotted hover:decoration-solid">company@support.email</a>
+                            </p>
+                            <p class="text-xs text-zinc-500 mt-2">We typically respond within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 md:py-8 rounded-2xl border border-zinc-200 bg-white shadow-sm hover:shadow-md transition"
+                    data-aos="fade-right" data-aos-delay="200">
+                    <div class="flex items-start gap-4">
+                        <div class="h-11 shrink-0 w-11 rounded-xl bg-[#145bcd]/10 flex items-center justify-center">
+                            <i class="fa-solid fa-share-nodes text-[#145bcd]"></i>
+                        </div>
+                        <div class="w-full">
+                            <h3 class="text-lg font-semibold">Follow Us</h3>
+                            <p class="text-zinc-600 mt-1">Stay updated with product news, offers, and tips.</p>
+                            <div class="mt-3 flex flex-wrap items-center gap-3">
+                                <a href="#" aria-label="Twitter"
+                                    class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 bg-white hover:bg-zinc-50 transition">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                                <a href="#" aria-label="Facebook"
+                                    class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 bg-white hover:bg-zinc-50 transition">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="#" aria-label="Instagram"
+                                    class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 bg-white hover:bg-zinc-50 transition">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="#" aria-label="LinkedIn"
+                                    class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-zinc-200 bg-white hover:bg-zinc-50 transition">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Form -->
+            <div class="lg:col-span-7">
+                <form id="contactForm" class="p-6 lg:p-8 rounded-2xl border border-zinc-200 bg-white shadow-sm"
+                    data-aos="fade-left" novalidate>
+                    <h2 class="text-xl font-semibold">Send us a message</h2>
+                    <p class="text-zinc-600 mt-1">Fill out the form and we’ll get back to you shortly.</p>
+
+                    <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-zinc-700">Full Name</label>
+                            <input id="name" name="name" type="text" required placeholder="Enter your name"
+                                class="mt-2 w-full rounded-xl border border-zinc-300 bg-white px-4 py-2.5 outline-none focus:border-[#145bcd] focus:ring-2 focus:ring-[#145bcd]/20 transition" />
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-zinc-700">Email</label>
+                            <input id="email" name="email" type="email" required placeholder="you@example.com"
+                                class="mt-2 w-full rounded-xl border border-zinc-300 bg-white px-4 py-2.5 outline-none focus:border-[#145bcd] focus:ring-2 focus:ring-[#145bcd]/20 transition" />
+                        </div>
+                        <div class="md:col-span-2">
+                            <label for="subject" class="block text-sm font-medium text-zinc-700">Subject</label>
+                            <input id="subject" name="subject" type="text" required placeholder="How can we help?"
+                                class="mt-2 w-full rounded-xl border border-zinc-300 bg-white px-4 py-2.5 outline-none focus:border-[#145bcd] focus:ring-2 focus:ring-[#145bcd]/20 transition" />
+                        </div>
+                        <div class="md:col-span-2">
+                            <label for="message" class="block text-sm font-medium text-zinc-700">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Write your message..."
+                                class="mt-2 w-full rounded-xl border border-zinc-300 bg-white px-4 py-2.5 outline-none focus:border-[#145bcd] focus:ring-2 focus:ring-[#145bcd]/20 transition"></textarea>
+                        </div>
+
+                        <!-- Honeypot (anti-bot) -->
+                        <div class="hidden">
+                            <label for="website">Website</label>
+                            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+                        </div>
+                    </div>
+
+                    <div class="mt-3 flex flex-col items-start gap-4">
+                        <p class="text-sm text-zinc-500">By submitting, you agree to our terms and privacy policy.</p>
+                        <button type="submit"
+                            class="inline-flex items-center gap-2 rounded-xl bg-[#145bcd] px-5 py-3 text-white font-medium hover:bg-[#0f4ead] transition">
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </button>
+                    </div>
+
+                    <!-- Status -->
+                    <div id="formStatus" class="mt-4 hidden">
+                        <div class="rounded-xl border border-emerald-200 bg-emerald-50 text-emerald-800 px-4 py-3">
+                            Thanks! Your message has been sent. We’ll get back to you soon.
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="mt-12 rounded-2xl border border-blue-200 bg-blue-50 p-6" data-aos="fade-up">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div>
+                    <h3 class="text-lg font-semibold text-blue-900">Need quick help?</h3>
+                    <p class="text-blue-900/80">Check our FAQs or email <a href="mailto:company@support.email"
+                            class="underline decoration-dotted">company@support.email</a>.</p>
+                </div>
+                <a href="/faq"
+                    class="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 transition">
+                    Visit FAQs <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="rounded-2xl md:mt-12 mt-8 overflow-hidden border border-zinc-200 bg-white shadow-sm" data-aos="fade-up"
+            data-aos-delay="300">
+            <iframe title="PayLab Office Map"
+                src="https://www.google.com/maps?q=119%20W%2024th%20Street%204th%20New%20York,%20USA&output=embed"
+                class="w-full h-64 md:h-96" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+
+
+    <div class="md:mt-20 mt-10" id="footer"></div>
+
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script>
+        if (window.AOS && !window.__AOS_INIT__) {
+            AOS.init({ once: true, duration: 600, easing: 'ease-out' });
+            window.__AOS_INIT__ = true;
+        }
+
+        // Basic client-side handler (replace with your backend endpoint)
+        document.getElementById('contactForm')?.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const form = e.currentTarget;
+            // Honeypot check
+            if (form.website && form.website.value) return;
+            // Simple validation
+            if (!form.checkValidity()) { form.reportValidity(); return; }
+
+            // TODO: replace with fetch('/api/contact', { method:'POST', body: new FormData(form) })
+            // Simulate success
+            const btn = form.querySelector('button[type="submit"]');
+            const status = document.getElementById('formStatus');
+            btn.disabled = true; btn.classList.add('opacity-70'); btn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Sending...';
+            setTimeout(() => {
+                btn.disabled = false; btn.classList.remove('opacity-70'); btn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Send Message';
+                status.classList.remove('hidden');
+                form.reset();
+                setTimeout(() => status.classList.add('hidden'), 3000);
+            }, 900);
+        });
+    </script>
+</body>
+
+</html>

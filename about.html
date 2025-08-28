@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vernut</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/logo.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- seo -->
+    <meta name="title" content="Venurt - Fast Mobile Recharge & Secure Bill Payments Anytime, Anywhere" />
+    <meta name="description"
+        content="Recharge airtime, buy data, pay electricity, internet, water, and TV bills instantly with Venurt. Trusted by 325M+ users for secure payments, cashback rewards, and 24/7 services." />
+
+</head>
+
+<body class="overflow-x-hidden">
+    <div id="global-loader"
+        class="hi dden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="text-center">
+            <div class="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-[#145bcd] mx-auto"></div>
+            <h2 class="text-zinc-900  mt-4">Loading...</h2>
+        </div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+
+    <section class="relative bgBanner overflow-x-hidden">
+        <div id="navbar"></div>
+
+        <section class="relative overflow-hidden md:py-14 py-8 bg-center bg-cover py-10">
+            <!-- Content -->
+            <div
+                class="relative z-20 mx-auto max-w-7xl px-5 sm:px-6 lg:px-12 md:py-14 py-8 flex md:flex-row md:gap-20 gap-5 items-center justify-center flex-col text-center">
+                <div class="md:max-w-2xl w-full">
+                    <h1 data-aos="fade-up" data-aos-delay="200"
+                        class="max-w-5xl textShadow mx-auto font-semibold text-3xl md:text-6xl tracking-wide text-zinc-100 leading-tight md:mb-6 capitalize mb-5">
+                        About Us
+                    </h1>
+
+                    <p data-aos="fade-up" data-aos-delay="400" class="text-zinc-300 text-lg space-y-3">
+                        We're here to make paying your utility bills a breeze. No more stress, just quick and easy
+                        payments.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+    </section>
+
+
+    <div data-aos="fade-up" class="max-w-7xl w-full p-4 mx-auto md:mt-16 mt-10">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="w-full flex-col flex items-center justify-center gap-2 text-center">
+                        <h2 class="counter md:text-5xl text-4xl text-zinc-800 font-semibold">12M</h2>
+                        <p class="text-zinc-700 font-medium">App Downloads</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="w-full flex-col flex items-center justify-center gap-2 text-center">
+                        <h2 class="counter md:text-5xl text-4xl text-zinc-800 font-semibold">305K+</h2>
+                        <p class="text-zinc-700 font-medium">Award</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="w-full flex-col flex items-center justify-center gap-2 text-center">
+                        <h2 class="counter md:text-5xl text-4xl text-zinc-800 font-semibold">800M</h2>
+                        <p class="text-zinc-700 font-medium">Transactions</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="w-full flex-col flex items-center justify-center gap-2 text-center">
+                        <h2 class="counter md:text-5xl text-4xl text-zinc-800 font-semibold">325M</h2>
+                        <p class="text-zinc-700 font-medium">Users</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="w-full flex-col flex items-center justify-center gap-2 text-center">
+                        <h2 class="counter md:text-5xl text-4xl text-zinc-800 font-semibold">50K+</h2>
+                        <p class="text-zinc-700 font-medium">Recharge Partners</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="w-full flex-col flex items-center justify-center gap-2 text-center">
+                        <h2 class="counter md:text-5xl text-4xl text-zinc-800 font-semibold">24/7</h2>
+                        <p class="text-zinc-700 font-medium">Bill Payment Service</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <section
+        class="md:max-w-7xl flex items-center justify-center md:flex-row flex-col md:gap-20 gap-6 lg:px-12 p-4 w-full mx-auto lg:mt-24 mt-12">
+        <div data-aos="zoom-in" class="md:w-[50%] w-full">
+            <img src="/docs/assets/images/img1.png" class="w-full rounded-xl" alt="">
+        </div>
+        <div class="md:w-[50%] w-full">
+            <p data-aos="fade-up" class="mb-3 px-2 bg-zinc-100 text-zinc-800 rounded-full py-1 inline-block text-xs">
+                Mission
+            </p>
+            <h2 data-aos="fade-up"
+                class="lg:text-4xl capitalize md:leading-[3rem] text-3xl font-semibold text-zinc-800">
+                OUR MISSION
+            </h2>
+            <p data-aos="fade-up" class="mt-5 text-zinc-600 md:text-lg">
+                Our mission is to revolutionize utility bill payments in Africa, starting with Nigeria. We aim to create
+                a reliable, efficient, and accessible platform that simplifies the payment process for every user,
+                ensuring transparency and convenience.
+            </p>
+        </div>
+
+
+    </section>
+
+    <section
+        class="md:max-w-7xl flex items-center justify-center md:flex-row flex-col-reverse md:gap-20 gap-6 lg:px-12 p-4 w-full mx-auto lg:mt-20 mt-12">
+        <div class="md:w-[50%] w-full">
+            <p data-aos="fade-up" class="mb-3 px-2 bg-zinc-100 text-zinc-800 rounded-full py-1 inline-block text-xs">
+                Vision
+            </p>
+            <h2 data-aos="fade-up"
+                class="lg:text-4xl capitalize md:leading-[3rem] text-3xl font-semibold text-zinc-800">
+                OUR VISION
+            </h2>
+            <p data-aos="fade-up" class="mt-5 text-zinc-600 md:text-lg">
+                Our vision is to become the leading utility payment platform in Africa, empowering individuals and
+                businesses with seamless payment solutions. We strive to bridge the gap in financial inclusion and
+                ensure that every transaction is secure, transparent, and swift.
+            </p>
+        </div>
+        <div data-aos="zoom-in" class="md:w-[50%] w-full">
+            <div class="relative h-80 md:h-[28rem] rounded-2xl overflow-hidden border border-zinc-200 bg-zinc-900"
+                data-aos="fade-up">
+                <!-- soft brand glows -->
+                <div class="absolute inset-0 bg-[radial-gradient(600px_260px_at_10%_90%,#145bcd33,transparent_70%)]">
+                </div>
+                <div class="absolute inset-0 bg-[radial-gradient(520px_220px_at_92%_10%,#145bcd22,transparent_75%)]">
+                </div>
+                <!-- Replace with your screenshot -->
+                <img src="/docs/assets/images/img2.png" alt="Venurt app features"
+                    class="absolute inset-0 w-full h-full object-contain p-6 md:p-10 md:pb-0 pb-0">
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="relative overflow-hidden">
+        <div class="md:max-w-7xl lg:px-12 p-4 w-full mx-auto lg:mt-28 mt-12">
+            <div class="" data-aos="fade-up">
+                <div class="flex flex-col items-center text-center justify-center mx-auto">
+                    <p
+                        class="inline-flex items-center gap-2 text-sm font-medium px-3 py-1 rounded-full bg-[#145bcd]/10 text-[#145bcd]">
+                        Trusted by Leading Brands
+                    </p>
+                    <h2 class="mt-4 max-w-xl md:leading-tight mx-auto lg:text-4xl text-3xl font-semibold text-zinc-800">
+                        Join 800+ Business Partners Who Rely on PayLab
+                    </h2>
+                    <p class="mt-3 text-zinc-600 md:text-lg max-w-3xl mx-auto">
+                        From seamless mobile recharges to secure bill payments, PayLab helps businesses save time,
+                        reduce costs,
+                        and deliver a faster checkout experience to millions of customers every day.
+                    </p>
+                </div>
+
+                <div class="swiper mySwiper md:mt-12 mt-8">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <li class="flex items-center justify-center p-5">
+                                <img src="/docs/assets/images/partners/partner (1).png" class="w-full" alt="">
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="flex items-center justify-center p-5">
+                                <img src="/docs/assets/images/partners/partner (2).png" class="w-full" alt="">
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="flex items-center justify-center p-5">
+                                <img src="/docs/assets/images/partners/partner (3).png" class="w-full" alt="">
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="flex items-center justify-center p-5">
+                                <img src="/docs/assets/images/partners/partner (4).png" class="w-full" alt="">
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="flex items-center justify-center p-5">
+                                <img src="/docs/assets/images/partners/partner (5).png" class="w-full" alt="">
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="flex items-center justify-center p-5">
+                                <img src="/docs/assets/images/partners/partner (6).png" class="w-full" alt="">
+                            </li>
+                        </div>
+                        <div class="swiper-slide">
+                            <li class="flex items-center justify-center p-5">
+                                <img src="/docs/assets/images/partners/partner (7).png" class="w-full" alt="">
+                            </li>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="relative overflow-hidden bg-zinc-900 md:mt-20 mt-10 text-white">
+        <!-- soft blobs -->
+        <div class="pointer-events-none absolute -top-32 -left-24 h-72 w-72 rounded-full bg-[#145bcd]/20 blur-3xl">
+        </div>
+        <div
+            class="pointer-events-none absolute -bottom-24 -right-24 h-72 w-72 rounded-full bg-emerald-300/10 blur-3xl">
+        </div>
+
+        <div class="md:max-w-7xl w-full mx-auto lg:px-12 px-4 py-16 lg:py-24">
+            <!-- Badge -->
+            <div class="flex justify-center">
+                <span
+                    class="inline-flex items-center gap-2 rounded-full bg-white text-zinc-900 px-4 py-1.5 text-sm font-semibold"
+                    data-aos="fade-up">
+                    Why Choose <span class="text-[#145bcd]">Venurt</span>
+                </span>
+            </div>
+
+            <!-- Heading + Subtext -->
+            <h2 class="mt-6 text-center lg:text-4xl max-w-4xl mx-auto text-3xl font-semibold lg:leading-[3.5rem]"
+                data-aos="fade-up" data-aos-delay="100">
+                Experience seamless, secure, and rewarding payments
+                with <span class="text-[#145bcd]">Venurt</span>.
+            </h2>
+            <p class="mt-4 text-center text-zinc-300 md:text-lg max-w-3xl mx-auto" data-aos="fade-up"
+                data-aos-delay="150">
+                Top up airtime and data, pay electricity, internet, and TV bills, renew DTH, and book bus tickets—fast,
+                secure, 24/7.
+            </p>
+
+            <div class="mt-12 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                <!-- Left: Feature list -->
+                <div class="lg:col-span-6 space-y-10" data-aos="fade-right">
+                    <!-- item -->
+                    <div class="relative pl-6">
+                        <span class="absolute left-0 top-1 h-full w-px bg-zinc-700"></span>
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="h-11 w-11 shrink-0 rounded-xl bg-[#145bcd]/15 text-[#145bcd] flex items-center justify-center">
+                                <i class="fa-solid fa-file-invoice-dollar"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold">Effortless Bill Payments</h3>
+                                <p class="mt-1 text-zinc-300">Pay electricity, internet, water, and TV subscriptions in
+                                    seconds with real-time receipts and tokens.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="relative pl-6">
+                        <span class="absolute left-0 top-1 h-full w-px bg-zinc-700"></span>
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="h-11 w-11 shrink-0 rounded-xl bg-[#145bcd]/15 text-[#145bcd] flex items-center justify-center">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold">Secure & Reliable Transactions</h3>
+                                <p class="mt-1 text-zinc-300">Protected payments through trusted partners—Verve,
+                                    Paystack, Flutterwave, and bank transfers.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="relative pl-6">
+                        <span class="absolute left-0 top-1 h-full w-px bg-zinc-700"></span>
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="h-11 w-11 shrink-0 rounded-xl bg-[#145bcd]/15 text-[#145bcd] flex items-center justify-center">
+                                <i class="fa-solid fa-gift"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold">Exclusive Rewards & Wallet</h3>
+                                <p class="mt-1 text-zinc-300">Earn cashback on every transaction and pay faster with the
+                                    Venurt Balance Wallet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Device mock -->
+                <div class="lg:col-span-6" data-aos="fade-left">
+                    <div class="relative mx-auto max-w-xl">
+                        <!-- phone container -->
+                        <div class="rounded-[2rem] border border-zinc-800 bg-zinc-950/60 shadow-2xl p-2">
+                            <div class="rounded-[1.7rem] bg-white p-6">
+                                <!-- screen -->
+                                <div class="mx-auto max-w-sm">
+                                    <div class="mx-auto h-2 w-20 rounded-full bg-zinc-200"></div>
+                                    <div class="mt-6 flex items-center justify-center">
+                                        <div
+                                            class="h-12 w-12 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                    </div>
+                                    <h4 class="mt-4 text-center text-lg font-semibold text-zinc-900">Purchase
+                                        Successful!</h4>
+
+                                    <dl class="mt-5 grid grid-cols-2 gap-3 text-sm text-zinc-700">
+                                        <div>
+                                            <dt class="text-zinc-500">Cable Provider</dt>
+                                            <dd class="font-medium">DStv</dd>
+                                        </div>
+                                        <div>
+                                            <dt class="text-zinc-500">Bundle</dt>
+                                            <dd class="font-medium">Premium</dd>
+                                        </div>
+                                        <div>
+                                            <dt class="text-zinc-500">Amount</dt>
+                                            <dd class="font-medium">₦9,000.00</dd>
+                                        </div>
+                                        <div>
+                                            <dt class="text-zinc-500">Ref</dt>
+                                            <dd class="font-medium">VEN-68231</dd>
+                                        </div>
+                                    </dl>
+
+                                    <div class="mt-6 grid grid-cols-3 gap-2">
+                                        <span
+                                            class="rounded-xl border border-zinc-200 bg-zinc-50 px-3 py-2 text-center text-xs font-medium text-zinc-700">Pay
+                                            with Wallet</span>
+                                        <span
+                                            class="rounded-xl border border-zinc-200 bg-zinc-50 px-3 py-2 text-center text-xs font-medium text-zinc-700">Pay
+                                            with Card</span>
+                                        <span
+                                            class="rounded-xl border border-zinc-200 bg-zinc-50 px-3 py-2 text-center text-xs font-medium text-zinc-700">Bank
+                                            Transfer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- floating hints -->
+                        <div class="hidden md:block">
+                            <div
+                                class="absolute -right-6 top-10 rounded-xl border border-zinc-700 bg-zinc-900/80 backdrop-blur px-4 py-2 text-sm">
+                                Pay with <span class="text-[#145bcd] font-semibold">card</span>
+                            </div>
+                            <div
+                                class="absolute left-2 bottom-24 rounded-xl border border-zinc-700 bg-zinc-900/80 backdrop-blur px-4 py-2 text-sm">
+                                Pay with <span class="text-[#145bcd] font-semibold">wallet</span>
+                            </div>
+                            <div
+                                class="absolute -right-10 bottom-10 rounded-xl border border-zinc-700 bg-zinc-900/80 backdrop-blur px-4 py-2 text-sm">
+                                Pay with <span class="text-[#145bcd] font-semibold">bank transfer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="mt-12 flex justify-center" data-aos="fade-up">
+                <a href="/contact.html"
+                    class="inline-flex items-center gap-2 rounded-xl bg-[#145bcd] px-5 py-3 text-white font-medium hover:bg-[#0f4ead] transition">
+                    Get Started <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="relative overflow-hidden text-white">
+        <!-- Blue gradient background -->
+        <div class="absolute inset-0 -z-10 bg-gradient-to-br from-[#145bcd] via-[#0f4ead] to-[#0b3c87]"></div>
+        <!-- Subtle grid overlay -->
+        <div class="absolute inset-0 -z-10 opacity-15"
+            style="background-image:linear-gradient(rgba(255,255,255,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.12) 1px,transparent 1px);background-size:48px 48px;">
+        </div>
+
+        <div class="md:max-w-7xl w-full mx-auto lg:px-12 px-4 py-16 lg:py-24">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                <!-- Left: copy + store badges -->
+                <div class="lg:col-span-6">
+                    <p
+                        class="inline-flex items-center gap-2 rounded-full bg-white/90 text-[#145bcd] px-4 py-1.5 text-sm font-semibold">
+                        Why Venurt
+                    </p>
+
+                    <h2 class="mt-5 lg:text-5xl text-3xl font-extrabold leading-tight">
+                        The future of <span class="text-yellow-300">recharge</span> and <span
+                            class="text-yellow-300">bill</span> management.
+                    </h2>
+
+                    <p class="mt-4 max-w-xl text-white/90 md:text-lg">
+                        Experience fast, secure mobile recharges and utility payments. Download the Venurt app on the
+                        App Store
+                        and Play Store to top up airtime & data, pay electricity, internet, and TV—anytime, anywhere.
+                    </p>
+
+                    <div class="mt-6 flex flex-wrap items-center gap-3">
+                        <!-- Use official badges if you have them -->
+                        <a href="#"
+                            class="rounded-xl border border-white/20 bg-black px-4 py-2.5 hover:bg-black/90 transition inline-flex items-center gap-3">
+                            <i class="fa-brands fa-apple text-2xl"></i>
+                            <div class="text-left leading-tight">
+                                <span class="block text-[10px] uppercase tracking-wider text-white/70">Download on
+                                    the</span>
+                                <span class="block text-base font-semibold">App Store</span>
+                            </div>
+                        </a>
+                        <a href="#"
+                            class="rounded-xl border border-white/20 bg-black px-4 py-2.5 hover:bg-black/90 transition inline-flex items-center gap-3">
+                            <i class="fa-brands fa-google-play text-2xl"></i>
+                            <div class="text-left leading-tight">
+                                <span class="block text-[10px] uppercase tracking-wider text-white/70">Get it on</span>
+                                <span class="block text-base font-semibold">Google Play</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: overlapping phone mockups -->
+                <div class="lg:col-span-6">
+                    <div class="relative mx-auto max-w-xl">
+                        <!-- Back phone -->
+                        <div class="absolute right-2 -top-10 hidden md:block w-[65%] rotate-3">
+                            <div class="rounded-[2rem] border border-white/10 bg-white/10 backdrop-blur shadow-xl p-2">
+                                <div class="rounded-[1.6rem] bg-white overflow-hidden">
+                                    <div class="h-10 bg-zinc-100"></div>
+                                    <div class="p-5">
+                                        <h3 class="font-semibold text-zinc-900">Select gift card</h3>
+                                        <div class="mt-3 grid grid-cols-3 gap-2 text-xs text-zinc-700">
+                                            <div class="rounded-lg border border-zinc-200 p-2 text-center">Spotify</div>
+                                            <div class="rounded-lg border border-zinc-200 p-2 text-center">Apple</div>
+                                            <div class="rounded-lg border border-zinc-200 p-2 text-center">Netflix</div>
+                                            <div class="rounded-lg border border-zinc-200 p-2 text-center">eBay</div>
+                                            <div class="rounded-lg border border-zinc-200 p-2 text-center">Call of Duty
+                                            </div>
+                                            <div class="rounded-lg border border-zinc-200 p-2 text-center">Shein</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Front phone -->
+                        <div class="relative w-[100%] md:w-[75%]">
+                            <div class="rounded-[2rem] border border-white/10 bg-white/10 backdrop-blur shadow-2xl p-2">
+                                <div class="rounded-[1.6rem] bg-white overflow-hidden">
+                                    <div class="h-10 bg-zinc-100"></div>
+                                    <div class="p-6">
+                                        <div class="text-sm text-zinc-700">Hello, 👋 <span
+                                                class="font-semibold">Semira!</span></div>
+                                        <div class="mt-4 rounded-2xl bg-[#145bcd]/10 p-4">
+                                            <p class="text-xs text-zinc-600">TOTAL BALANCE</p>
+                                            <p class="mt-1 text-2xl font-bold text-[#145bcd]">₦1,563,012.00</p>
+                                            <button
+                                                class="mt-3 inline-flex items-center gap-2 rounded-xl bg-[#145bcd] px-3 py-2 text-white text-sm font-medium">
+                                                Fund wallet <i class="fa-solid fa-arrow-right-long"></i>
+                                            </button>
+                                        </div>
+
+                                        <h4 class="mt-6 font-semibold text-zinc-900">Our Services</h4>
+                                        <div class="mt-3 grid grid-cols-4 gap-2 text-center text-xs">
+                                            <div class="rounded-xl border border-zinc-200 py-2">
+                                                <i class="fa-solid fa-wifi text-[#145bcd]"></i>
+                                                <div class="mt-1 text-zinc-700">Data</div>
+                                            </div>
+                                            <div class="rounded-xl border border-zinc-200 py-2">
+                                                <i class="fa-solid fa-mobile-screen-button text-[#145bcd]"></i>
+                                                <div class="mt-1 text-zinc-700">Airtime</div>
+                                            </div>
+                                            <div class="rounded-xl border border-zinc-200 py-2">
+                                                <i class="fa-solid fa-plug text-[#145bcd]"></i>
+                                                <div class="mt-1 text-zinc-700">Electricity</div>
+                                            </div>
+                                            <div class="rounded-xl border border-zinc-200 py-2">
+                                                <i class="fa-solid fa-tv text-[#145bcd]"></i>
+                                                <div class="mt-1 text-zinc-700">TV</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="mt-4 grid grid-cols-2 gap-2 text-xs">
+                                            <div class="rounded-xl border border-zinc-200 p-2 text-center">Bus Tickets
+                                            </div>
+                                            <div class="rounded-xl border border-zinc-200 p-2 text-center">Gift Cards
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- subtle glow -->
+                            <div class="absolute -inset-6 -z-10 rounded-[2rem] bg-[#145bcd]/30 blur-3xl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="relative md:py-20 py-10 bg-blue-50 overflow-hidden">
+        <img src="/docs/assets/images/grid.png" class="absolute inset-0 w-full h-full object-cover opacity-10" alt="">
+        <section class="md:max-w-7xl lg:px-12 p-4 w-full mx-auto ">
+
+            <h2 class="lg:text-5xl max-w-3xl mx-auto capitalize lg:leading-[3.5rem] text-center text-3xl font-semibold text-zinc-700"
+                data-aos="fade-up">Customer Reviews
+            </h2>
+            <p class="text-center text-zinc-600 mt-5 max-w-2xl mx-auto md:text-lg" data-aos="fade-up">
+                See what our users say about <strong>Venurt</strong>—fast recharges, secure bill payments, and real-time
+                receipts.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 md:mt-16 mt-8">
+                <!-- Review 1 -->
+                <div data-aos="fade-up"
+                    class="relative border border-solid border-gray-400 bg-blue-50 rounded-2xl p-4  transition-all duration-500 xl:p-5">
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                    </div>
+                    <p class="text-zinc-600 mt-5">
+                        “Airtime and data top-ups are instant on Venurt. I also pay my electricity and internet bills
+                        here—tokens and
+                        receipts arrive immediately. Super reliable and perfect for last-minute payments.”
+                    </p>
+                </div>
+
+                <!-- Review 2 -->
+                <div data-aos="fade-up" data-aos-delay="100"
+                    class="relative border border-solid border-gray-400 bg-blue-50 rounded-2xl p-4  transition-all duration-500 xl:p-5">
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                    </div>
+                    <p class="text-zinc-600 mt-5">
+                        “The cashback is real! I renewed DStv and paid water bills in one go, and the app saved my
+                        favourites for next
+                        time. Clean interface, fair pricing, and it just works.”
+                    </p>
+                </div>
+
+                <!-- Review 3 -->
+                <div data-aos="fade-up" data-aos-delay="200"
+                    class="relative border border-solid border-gray-400 bg-blue-50 rounded-2xl p-4  transition-all duration-500 xl:p-5">
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                        <i class="fa-solid fa-star text-yellow-500 text-lg"></i>
+                    </div>
+                    <p class="text-zinc-600 mt-5">
+                        “Venurt is fast and secure. I love the wallet feature and the real-time confirmations. Support
+                        was
+                        helpful the
+                        one time I had a question. Five stars from me.”
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+    <div class="" id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script>
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1
+                },
+                640: {
+                    slidesPerView: 2
+                },
+                768: {
+                    slidesPerView: 4
+                },
+                1024: {
+                    slidesPerView: 5
+                }
+            },
+            navigation: {
+                nextEl: ".button-next",
+                prevEl: ".button-prev",
+            },
+            autoplay: {
+                delay: 3000,
+            },
+            loop: true,
+        });
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1
+                },
+                640: {
+                    slidesPerView: 2
+                },
+                768: {
+                    slidesPerView: 4
+                },
+                1024: {
+                    slidesPerView: 5
+                }
+            },
+            navigation: {
+                nextEl: ".button-next",
+                prevEl: ".button-prev",
+            },
+            autoplay: {
+                delay: 3000,
+            },
+            loop: true,
+        });
+
+        function toggleAccordion(index) {
+            const contents = document.querySelectorAll('[id^="content-"]');
+            const icons = document.querySelectorAll('[id^="icon-"]');
+
+            contents.forEach((content, i) => {
+                const num = i + 1; // because your ids are content-1, content-2, etc.
+                const icon = document.getElementById(`icon-${num}`);
+
+                if (num === index) {
+                    // toggle the clicked one
+                    if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+                        content.style.maxHeight = '0';
+                        icon.classList.remove('rotate-180');
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                        icon.classList.add('rotate-180');
+                    }
+                } else {
+                    // close all others
+                    content.style.maxHeight = '0';
+                    icon.classList.remove('rotate-180');
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>

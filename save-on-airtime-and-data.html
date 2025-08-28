@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vernut</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/logo.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- seo -->
+    <meta name="title" content="Venurt - Fast Mobile Recharge & Secure Bill Payments Anytime, Anywhere" />
+    <meta name="description"
+        content="Recharge airtime, buy data, pay electricity, internet, water, and TV bills instantly with Venurt. Trusted by 325M+ users for secure payments, cashback rewards, and 24/7 services." />
+
+</head>
+
+<body class="overflow-x-hidden">
+    <div id="global-loader"
+        class="hi dden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="text-center">
+            <div class="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-[#145bcd] mx-auto"></div>
+            <h2 class="text-zinc-900  mt-4">Loading...</h2>
+        </div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+
+
+    <section class="relative bgBanner overflow-x-hidden">
+        <div id="navbar"></div>
+
+        <section class="relative overflow-hidden md:py-14 py-8 bg-center bg-cover py-10">
+            <!-- Content -->
+            <div
+                class="relative z-20 mx-auto max-w-7xl px-5 sm:px-6 lg:px-12 md:py-14 py-8 flex md:flex-row md:gap-20 gap-5 items-center justify-center flex-col text-center">
+                <div class="md:max-w-2xl w-full">
+                    <h1 data-aos="fade-up" data-aos-delay="200"
+                        class="max-w-5xl textShadow mx-auto font-semibold text-3xl md:text-6xl tracking-wide text-zinc-100 leading-tight md:mb-6 capitalize mb-5">
+                        Our Blog
+                    </h1>
+
+                    <p data-aos="fade-up" data-aos-delay="400" class="text-zinc-300 text-lg space-y-3">
+                        Your source for the latest news, tips, and insights on managing utility payments and more.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+    </section>
+
+    <section class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-white to-zinc-50"></div>
+        <div class="relative md:max-w-7xl w-full mx-auto lg:px-12 p-4">
+            <nav class="text-sm text-zinc-500" aria-label="Breadcrumb" data-aos="fade-up">
+                <ol class="flex items-center gap-2">
+                    <li><a href="/index.html" class="hover:text-zinc-700">Home</a></li>
+                    <li><i class="fa-solid fa-chevron-right text-[10px]"></i></li>
+                    <li><a href="/blog.html" class="hover:text-zinc-700">Blog</a></li>
+                    <li><i class="fa-solid fa-chevron-right text-[10px]"></i></li>
+                    <li class="text-zinc-700">Save on Airtime & Data</li>
+                </ol>
+            </nav>
+
+            <div class="mt-6 flex flex-wrap items-center gap-3" data-aos="fade-up" data-aos-delay="50">
+                <span
+                    class="inline-flex items-center gap-2 rounded-full bg-blue-50 text-[#145bcd] text-xs font-medium px-3 py-1">
+                    <i class="fa-solid fa-signal"></i> Tips & Guides
+                </span>
+                <span id="readTimeBadge"
+                    class="inline-flex items-center gap-2 rounded-full bg-zinc-100 text-zinc-600 text-xs font-medium px-3 py-1">
+                    <i class="fa-regular fa-clock"></i> <span id="readTime">— min read</span>
+                </span>
+                <span
+                    class="inline-flex items-center gap-2 rounded-full bg-zinc-100 text-zinc-600 text-xs font-medium px-3 py-1">
+                    <i class="fa-solid fa-calendar-day"></i> Aug 28, 2025
+                </span>
+            </div>
+
+            <h1 class="mt-4 lg:text-4xl text-3xl font-semibold lg:leading-[3.5rem] max-w-4xl" data-aos="fade-up"
+                data-aos-delay="100">
+                Save on Airtime & Data: 7 Smart Tips for Everyday Use
+            </h1>
+            <p class="mt-4 text-zinc-600 md:text-lg max-w-3xl" data-aos="fade-up" data-aos-delay="150">
+                Practical ways to cut costs without going offline—optimize bundles, automate recharges, and make the
+                most of Venurt’s wallet and cashback.
+            </p>
+
+            <!-- Cover Image -->
+            <div class="mt-8 rounded-2xl overflow-hidden border border-zinc-200 shadow-sm" data-aos="fade-up"
+                data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1599050751795-6cdaafbc2319?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGF5bWVudHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Phone showing data usage savings" class="w-full h-auto object-cover">
+            </div>
+
+            <!-- Meta row -->
+            <div class="mt-6 flex flex-wrap items-center justify-between gap-4" data-aos="fade-up" data-aos-delay="250">
+                <div class="flex items-center gap-3">
+                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
+                        alt="Amina" class="h-10 w-10 rounded-full object-cover">
+                    <div>
+                        <p class="text-sm font-medium">Amina • Venurt</p>
+                        <p class="text-xs text-zinc-500">Product Education</p>
+                    </div>
+                </div>
+
+                <!-- Share -->
+                <div class="flex items-center gap-2">
+                    <button id="shareBtn"
+                        class="inline-flex items-center gap-2 text-sm font-medium px-3 py-2 rounded-xl border border-zinc-200 bg-white hover:bg-zinc-50 transition">
+                        <i class="fa-solid fa-share-nodes"></i> Share
+                    </button>
+                    <button id="copyLinkBtn"
+                        class="inline-flex items-center gap-2 text-sm font-medium px-3 py-2 rounded-xl border border-zinc-200 bg-white hover:bg-zinc-50 transition">
+                        <i class="fa-regular fa-copy"></i> Copy link
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content + TOC -->
+    <section class="md:max-w-7xl w-full mx-auto lg:px-12 p-4">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+
+            <!-- Sticky TOC -->
+            <aside class="lg:col-span-3 lg:block hidden" data-aos="fade-up">
+                <div class="sticky top-5 rounded-2xl border border-zinc-200 bg-white p-4">
+                    <p class="text-xs font-semibold text-zinc-500 uppercase tracking-wider">On this page</p>
+                    <ul id="toc" class="mt-3 space-y-4 text-sm">
+                        <li><a href="#tip1" class="toc-link text-zinc-600 hover:text-zinc-900">1. Pick the right
+                                bundle</a></li>
+                        <li><a href="#tip2" class="toc-link text-zinc-600 hover:text-zinc-900">2. Schedule off-peak
+                                downloads</a></li>
+                        <li><a href="#tip3" class="toc-link text-zinc-600 hover:text-zinc-900">3. Use Venurt Wallet</a>
+                        </li>
+                        <li><a href="#tip4" class="toc-link text-zinc-600 hover:text-zinc-900">4. Stack cashback</a>
+                        </li>
+                        <li><a href="#tip5" class="toc-link text-zinc-600 hover:text-zinc-900">5. Automate recharges</a>
+                        </li>
+                        <li><a href="#tip6" class="toc-link text-zinc-600 hover:text-zinc-900">6. Track usage</a></li>
+                        <li><a href="#tip7" class="toc-link text-zinc-600 hover:text-zinc-900">7. Switch networks
+                                smartly</a></li>
+                        <li><a href="#faq" class="toc-link text-zinc-600 hover:text-zinc-900">FAQ</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Article -->
+            <article id="articleContent" class="lg:col-span-9" data-aos="fade-up">
+                <!-- Tip 1 -->
+                <section id="tip1" class="scroll-mt-24">
+                    <h2 class="text-2xl font-semibold">1) Pick the right bundle for your usage</h2>
+                    <p class="mt-3 text-zinc-700">
+                        If you stream often, prioritize data bundles that include video passes or night plans. For light
+                        users, a
+                        weekly social bundle may be cheaper than daily top-ups. Venurt lets you compare options for
+                        <span class="font-medium">MTN, Airtel, Glo, and 9mobile</span> and recharge in seconds.
+                    </p>
+                    <div class="mt-4 rounded-xl border-l-4 border-blue-500 bg-blue-50 p-4 text-blue-900">
+                        <p class="text-sm"><b>Pro tip:</b> Save your favorite bundles in Venurt to repeat in two taps.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Tip 2 -->
+                <section id="tip2" class="mt-10 scroll-mt-24">
+                    <h2 class="text-2xl font-semibold">2) Schedule big downloads during off-peak</h2>
+                    <p class="mt-3 text-zinc-700">
+                        Many networks offer lower rates or bonus data at night. Queue app updates and downloads, then
+                        recharge with Venurt right before the window to avoid mid-download slowdowns.
+                    </p>
+                </section>
+
+                <!-- Tip 3 -->
+                <section id="tip3" class="mt-10 scroll-mt-24">
+                    <h2 class="text-2xl font-semibold">3) Load your Venurt Balance Wallet</h2>
+                    <p class="mt-3 text-zinc-700">
+                        Deposit once, then pay faster without re-entering card details. The wallet helps you
+                        <span class="font-medium">track spending</span>, view statements, and set limits—great for
+                        families and teams.
+                    </p>
+                </section>
+
+                <!-- Tip 4 -->
+                <section id="tip4" class="mt-10 scroll-mt-24">
+                    <h2 class="text-2xl font-semibold">4) Stack cashback on every recharge</h2>
+                    <p class="mt-3 text-zinc-700">
+                        Venurt gives <span class="font-medium">cashback</span> for airtime, data, DStv/GOtv/Startimes,
+                        and bill payments.
+                        Redeem instantly at checkout to reduce your out-of-pocket cost.
+                    </p>
+                </section>
+
+                <!-- Tip 5 -->
+                <section id="tip5" class="mt-10 scroll-mt-24">
+                    <h2 class="text-2xl font-semibold">5) Automate recharges and bill reminders</h2>
+                    <p class="mt-3 text-zinc-700">
+                        Set reminders for expiring data and due bills. With Venurt’s smooth checkout, you’ll never miss
+                        a due date or overpay in a rush.
+                    </p>
+                </section>
+
+                <!-- Tip 6 -->
+                <section id="tip6" class="mt-10 scroll-mt-24">
+                    <h2 class="text-2xl font-semibold">6) Monitor your data usage</h2>
+                    <p class="mt-3 text-zinc-700">
+                        Periodically check your phone’s data reports to see which apps consume most data. Combine with
+                        the right
+                        bundle and timed top-ups to prevent costly overages.
+                    </p>
+                </section>
+
+                <!-- Tip 7 -->
+                <section id="tip7" class="mt-10 scroll-mt-24">
+                    <h2 class="text-2xl font-semibold">7) Switch networks smartly</h2>
+                    <p class="mt-3 text-zinc-700">
+                        Coverage and promos vary by location. If a network offers a better deal or speed in your area,
+                        Venurt makes it simple
+                        to recharge the right SIM at the right time.
+                    </p>
+                </section>
+
+                <!-- FAQ -->
+                <section id="faq" class="mt-12 scroll-mt-24">
+                    <h2 class="text-2xl font-semibold">FAQ</h2>
+                    <div class="mt-4 divide-y divide-zinc-200 rounded-2xl border border-zinc-200 bg-white">
+                        <details class="group p-5">
+                            <summary class="flex cursor-pointer items-center justify-between">
+                                <span class="font-medium">Do I get receipts and electricity tokens instantly?</span>
+                                <i class="fa-solid fa-angle-down text-zinc-600 transition group-open:rotate-180"></i>
+                            </summary>
+                            <p class="mt-3 text-zinc-700">
+                                Yes. Recharges and bill payments generate instant receipts, and electricity tokens
+                                arrive immediately via in-app view, SMS, or email.
+                            </p>
+                        </details>
+                        <details class="group p-5">
+                            <summary class="flex cursor-pointer items-center justify-between">
+                                <span class="font-medium">Which payment options does Venurt support?</span>
+                                <i class="fa-solid fa-angle-down text-zinc-600 transition group-open:rotate-180"></i>
+                            </summary>
+                            <p class="mt-3 text-zinc-700">
+                                Pay with Verve, through Paystack or Flutterwave, or via Bank Transfer—fast and secure.
+                            </p>
+                        </details>
+                    </div>
+                </section>
+
+                <!-- CTA -->
+                <div class="mt-12 rounded-2xl border border-blue-200 bg-blue-50 p-6">
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                        <div>
+                            <h3 class="text-xl font-semibold text-blue-900">Start saving on every recharge</h3>
+                            <p class="mt-1 text-blue-900/80">Load your wallet, redeem cashback, and pay bills in
+                                seconds—24/7.</p>
+                        </div>
+                        <a href="/contact.html"
+                            class="inline-flex items-center gap-2 rounded-xl bg-[#145bcd] px-4 py-2 text-white hover:bg-blue-700 transition">
+                            Get Started <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Related Posts -->
+    <section class="md:max-w-7xl w-full mx-auto lg:px-12 p-4">
+        <h2 class="text-2xl font-semibold">Related posts</h2>
+        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+            <!-- Related 1 -->
+            <article class="group">
+                <a href="/save-on-airtime-and-data.html"
+                    class="block bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition">
+                    <div class="relative aspect-[16/9] overflow-hidden">
+                        <img src="https://plus.unsplash.com/premium_photo-1677452023032-8219c4b18698?q=80&w=1315&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="w-full h-full object-cover transition group-hover:scale-105" alt="">
+                        <span
+                            class="absolute top-3 left-3 rounded-full bg-white/90 px-3 py-1 text-xs font-medium text-zinc-700 backdrop-blur">Bills
+                            & Utilities</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold group-hover:text-zinc-900">Electricity Tokens Demystified</h3>
+                        <p class="mt-2 text-sm text-zinc-600 line-clamp-3">How Venurt delivers tokens instantly and how
+                            to retrieve past receipts fast.</p>
+                        <span class="mt-4 inline-flex items-center gap-2 text-[#145bcd] text-sm font-medium">
+                            Read more <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+            </article>
+            <!-- Related 2 -->
+            <article class="group">
+                <a href="/save-on-airtime-and-data.html"
+                    class="block bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition">
+                    <div class="relative aspect-[16/9] overflow-hidden">
+                        <img src="https://plus.unsplash.com/premium_photo-1728889749386-dbec7f135715?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="w-full h-full object-cover transition group-hover:scale-105" alt="">
+                        <span
+                            class="absolute top-3 left-3 rounded-full bg-white/90 px-3 py-1 text-xs font-medium text-zinc-700 backdrop-blur">Rewards</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold group-hover:text-zinc-900">Cashback 101</h3>
+                        <p class="mt-2 text-sm text-zinc-600 line-clamp-3">Earn and redeem Venurt cashback on airtime,
+                            data, TV, and bills.</p>
+                        <span class="mt-4 inline-flex items-center gap-2 text-[#145bcd] text-sm font-medium">
+                            Read more <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+            </article>
+            <!-- Related 3 -->
+            <article class="group">
+                <a href="/save-on-airtime-and-data.html"
+                    class="block bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition">
+                    <div class="relative aspect-[16/9] overflow-hidden">
+                        <img src="https://plus.unsplash.com/premium_photo-1682310140123-d479f37e2c88?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UHJvZHVjdGl2aXR5fGVufDB8fDB8fHww"
+                            class="w-full h-full object-cover transition group-hover:scale-105" alt="">
+                        <span
+                            class="absolute top-3 left-3 rounded-full bg-white/90 px-3 py-1 text-xs font-medium text-zinc-700 backdrop-blur">Productivity</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="text-lg font-semibold group-hover:text-zinc-900">Never Miss a Due Date Again</h3>
+                        <p class="mt-2 text-sm text-zinc-600 line-clamp-3">Use Venurt reminders and wallet to pay on
+                            time—every time.</p>
+                        <span class="mt-4 inline-flex items-center gap-2 text-[#145bcd] text-sm font-medium">
+                            Read more <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Prev / Next -->
+    <section class="md:max-w-7xl md:block hidden w-full mx-auto lg:px-12 p-4">
+        <div class="flex  justify-between gap-4">
+            <a href="/blog.html" class="inline-flex items-center gap-2 text-zinc-700 hover:text-zinc-900">
+                <i class="fa-solid fa-arrow-left"></i> Back to Blog
+            </a>
+            <div class="flex items-center gap-4">
+                <a href="/save-on-airtime-and-data.html"
+                    class="inline-flex items-center gap-2 text-[#145bcd] hover:text-blue-700">
+                    Next: Electricity Tokens <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="md:mt-20 mt-10" id="footer"></div>
+
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+    <script>
+        // AOS (if not already initialized globally)
+        if (window.AOS && !window.__AOS_INIT__) {
+            AOS.init({ once: true, duration: 600, easing: 'ease-out' });
+            window.__AOS_INIT__ = true;
+        }
+
+        // Reading time
+        (function () {
+            const el = document.getElementById('articleContent');
+            if (!el) return;
+            const text = el.innerText || '';
+            const words = text.trim().split(/\s+/).filter(Boolean).length;
+            const minutes = Math.max(1, Math.round(words / 200)); // ~200 wpm
+            document.getElementById('readTime').textContent = `${minutes} min read`;
+        })();
+
+        // Smooth scroll for TOC
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                const id = a.getAttribute('href');
+                if (!id || id === '#') return;
+                const target = document.querySelector(id);
+                if (!target) return;
+                e.preventDefault();
+                window.scrollTo({ top: target.offsetTop - 80, behavior: 'smooth' });
+                history.pushState(null, '', id);
+            });
+        });
+
+        // Scrollspy (highlight active TOC link)
+        (function () {
+            const links = Array.from(document.querySelectorAll('.toc-link'));
+            const sections = links.map(l => document.querySelector(l.getAttribute('href'))).filter(Boolean);
+
+            function onScroll() {
+                const scrollPos = window.scrollY + 100;
+                let activeIndex = 0;
+                sections.forEach((sec, i) => {
+                    if (sec.offsetTop <= scrollPos) activeIndex = i;
+                });
+                links.forEach((l, i) => {
+                    l.classList.toggle('text-zinc-900', i === activeIndex);
+                    l.classList.toggle('font-semibold', i === activeIndex);
+                });
+            }
+            document.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+        })();
+
+        // Share / Copy link
+        (function () {
+            const shareBtn = document.getElementById('shareBtn');
+            const copyBtn = document.getElementById('copyLinkBtn');
+            const url = window.location.href;
+
+            if (shareBtn) {
+                shareBtn.addEventListener('click', async () => {
+                    if (navigator.share) {
+                        try { await navigator.share({ title: document.title, url }); }
+                        catch (_) { }
+                    } else {
+                        try {
+                            await navigator.clipboard.writeText(url);
+                            shareBtn.textContent = 'Link copied!';
+                            setTimeout(() => shareBtn.innerHTML = '<i class="fa-solid fa-share-nodes"></i> Share', 1500);
+                        } catch (_) { window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}`, '_blank'); }
+                    }
+                });
+            }
+            if (copyBtn) {
+                copyBtn.addEventListener('click', async () => {
+                    try {
+                        await navigator.clipboard.writeText(url);
+                        copyBtn.textContent = 'Copied!';
+                        setTimeout(() => copyBtn.innerHTML = '<i class="fa-regular fa-copy"></i> Copy link', 1500);
+                    } catch (_) {
+                        prompt('Copy this link:', url);
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+
+</html>
